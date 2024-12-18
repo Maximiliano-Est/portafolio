@@ -1,0 +1,118 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: url('restaurante-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+header h1 {
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #008000; /* Verde de la bandera italiana */
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section General Styles */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Menu Section */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+.menu-item h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #ff0000; /* Rojo de la bandera italiana */
+    color: white;
+}
+.menu-item p {
+    padding: 10px;
+    background-color: #ffffff; /* Blanco de la bandera italiana */
+}
+
+/* Reservation Section */
+.reservation {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.reservation input, .reservation button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.reservation button {
+    background-color: #008000; /* Verde de la bandera italiana */
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #008000; /* Verde de la bandera italiana */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
